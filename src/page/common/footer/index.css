@@ -1,0 +1,23 @@
+/*
+ * @Author: luzhibin 
+ * @Date: 2020-12-07 16:13:42 
+ * @Last Modified by:   luzhibin 
+ * @Last Modified time: 2020-12-07 16:13:42 
+ */
+.footer {
+  margin-top: 20px;
+  padding-bottom: 10px;
+}
+.footer .links {
+  text-align: center;
+  color: #666;
+  line-height: 30px;
+}
+.footer .links .link {
+  padding: 0 10px;
+}
+.footer .copyright {
+  text-align: center;
+  color: #666;
+  line-height: 30px;
+}
