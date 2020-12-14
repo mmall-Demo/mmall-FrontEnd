@@ -1,8 +1,8 @@
 /*
  * @Author: luzhibin 
  * @Date: 2020-12-07 16:15:04 
- * @Last Modified by:   luzhibin 
- * @Last Modified time: 2020-12-07 16:15:04 
+ * @Last Modified by: luzhibin
+ * @Last Modified time: 2020-12-10 13:44:13
  */
 
 'use strict';
@@ -74,7 +74,7 @@ var _mm = {
   },
 
   //字段的验证，非空、手机、邮箱的判断
-  validata: function (value, type) {
+  validate: function (value, type) {
     var value = $.trim(value);
     //非空验证
     if (type === "require") {
@@ -93,7 +93,7 @@ var _mm = {
   //统一登录处理
   doLogin: function () {
     window.location.href =
-      "./login.html?redirect=" + encodeURIComponent(window.location.href);
+      "./user-login.html?redirect=" + encodeURIComponent(window.location.href);
   },
   goHome : function () {
     window.location.href = "./index.html";
